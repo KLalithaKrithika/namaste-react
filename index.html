@@ -1,0 +1,59 @@
+<!-- creating a HTML page using a simple HTML code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+</body>
+</html>
+
+creating a Javascript hello worrld page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script>
+        let heading = document.createElement('h1');
+        heading.innerText = 'Hello World from Javascript'
+        let root1 = document.getElementById('root');
+        root1.appendChild(heading)
+    </script>
+</body>
+</html> -->
+
+<!-- creating a REact program with Hello world-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href ="./index.css" rel="stylesheet">
+    <title>Document</title>
+   
+</head>
+<body>
+    <h1>This is wil not be replaced</h1>
+    <div id="root">
+        <!-- when you create a react element and render inside root , it replaces the existing data -->
+<h1>Hello you!</h1>
+
+    </div>
+    <h1>This also wil not be replaced</h1>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="./App.js">
+   
+
+</script>
+</body>
+</html>
